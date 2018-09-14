@@ -1,0 +1,53 @@
+#container {
+    max-width: 700px;
+    margin-left: 15px;
+}
+body {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial Black;
+    margin-bottom: 5px;
+}
+
+p, li, td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 5px;
+
+}
+
+
+#nav_list {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_heading {
+    font-weight: bold;
+    
+}
+
+#nav_list li, li p {
+    display: inline;
+
+}
+
+li {
+    padding-right: 10px;
+}
+
+li a {
+    color: darkslategrey;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+li a:hover {
+    color:slategray;
+    text-decoration: underline;
+}
